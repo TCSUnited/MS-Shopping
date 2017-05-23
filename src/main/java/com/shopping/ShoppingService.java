@@ -21,7 +21,7 @@ public class ShoppingService {
 	public String getFlights() throws IOException{
 		System.out.println("******************** Inside Request ******************");
 		
-		String url = "http://localhost:4984/sync_gateway/getFlights";
+		String url = "http://54.200.235.10:4984/sync_gateway/getFlights";
 
 		URL obj = new URL(url);
 		HttpURLConnection con = (HttpURLConnection) obj.openConnection();
