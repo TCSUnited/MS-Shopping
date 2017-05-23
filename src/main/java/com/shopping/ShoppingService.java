@@ -26,7 +26,7 @@ public class ShoppingService {
 		URL obj = new URL(url);
 		HttpURLConnection con = (HttpURLConnection) obj.openConnection();
 
-		// optional default is GET. Test Comment
+		// optional default is GET.
 		con.setRequestMethod("GET");
 
 		int responseCode = con.getResponseCode();
